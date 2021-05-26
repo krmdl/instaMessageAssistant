@@ -13,7 +13,7 @@ opts.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0)
 driver: WebDriver = webdriver.Chrome(ChromeDriverManager().install(),options=opts)
 url = "https://www.instagram.com/accounts/login/"
 url0 = "https://www.instagram.com/direct/inbox/"
-message = ""
+message = "merhaba kerem"
 driver.get(url)
 
 #'trackers231342','trackers28946'
