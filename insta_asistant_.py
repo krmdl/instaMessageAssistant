@@ -45,7 +45,7 @@ sleep(3)
 driver.get(url0)
 sleep(3)
 for i in range(1000):
-    for i in range(168):
+    for i in range(1689999999999999999999999):
         driver.get(url0)
         sleep(3)
         
@@ -63,6 +63,5 @@ for i in range(1000):
         sleep(10)
 
     print(secret_key)
-    sleep(50000)
-    sys.stdout.write("\033[F")
-    sys.stdout.write("\033[K")
+    sleep(50)
+
