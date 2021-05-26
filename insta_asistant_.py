@@ -47,7 +47,7 @@ sleep(3)
 for i in range(1000):
     for i in range(168):
         driver.get(url0)
-        sleep(3570)
+        sleep(3)
         
         
         try:
