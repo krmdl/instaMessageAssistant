@@ -15,12 +15,12 @@ url0 = "https://www.instagram.com/direct/inbox/"
 message = "merhaba kerem"
 driver.get(url)
 
-#'trackers231342','trackers28946'
-un1 = ["trackers2894001"]
+
+un1 = ["tra"]
 c = random.choice(un1)
 print(c)
 driver.find_element_by_name("username").send_keys(c)
-driver.find_element_by_name("password").send_keys("Kerem2894")
+driver.find_element_by_name("password").send_keys("somePass")
 driver.find_element_by_xpath("/html/body/div[1]/section/main/div/div/div[1]/div/form/div/div[3]/button/div").click()
 sleep(a)
 try:
